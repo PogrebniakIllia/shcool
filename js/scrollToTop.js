@@ -1,4 +1,4 @@
-const toUpButton = document.getElementById('toUp');
+const toUpButton = document.getElementById("toUp");
 window.addEventListener("scroll", () => {
     if (window.scrollY > 1300) {
         toUpButton.classList.add("show");
@@ -11,7 +11,7 @@ window.addEventListener("scroll", () => {
 toUpButton.addEventListener("click", () => {
     window.scrollTo({
         top: 0,
-        behavior: "svooth",
+        behavior: "smooth",
     });
 });
 document.querySelectorAll('.menu__link').forEach(link => {

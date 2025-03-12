@@ -295,7 +295,7 @@ body {
 .leson__name {
   font-size: 43px;
   font-weight: 600;
-  width: 330px;
+  width: 320px;
 }
 
 .web {
@@ -516,6 +516,7 @@ body {
 
 #toUp {
   position: fixed;
+  z-index: 11;
   bottom: 50px;
   right: 50px;
   background-color: #212121;
